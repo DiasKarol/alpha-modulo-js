@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 450px;
+    min-height: 100vh;
+    margin: auto;
+    background-color: #1C1C1C;
+}
+
+/* ########## header ########## */
+
+header {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #FFFBFA;
+    background-color: #54DEFD;
+    border-start-start-radius: 5px;
+    border-start-end-radius: 5px;
+    box-shadow:  -5px -5px 10px #000000;
+    margin-top: 15vh;
+}
+
+/* ########## main ########## */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFBFA;
+    padding-block: 55px;
+    border-inline: #54DEFD solid 5px;
+    border-bottom: #54DEFD solid 5px;
+    border-end-start-radius: 5px;
+    border-end-end-radius: 5px;
+    box-shadow:  -5px 5px 10px #000000;
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 15px;
+}
+
+main section input {
+    font-size: 40px;
+    text-align: center;
+    width: 120px;
+    height: 80px;
+    border-radius: 15px;
+    border: 1px solid #AAEDFC;
+}
+
+main section select {
+    font-size: 25px;
+    text-align: center;
+    border: 1px solid #AAEDFC;
+    border-radius: 5px;
+    width: 60px;
+    height: 40px;
+}
+
+main button {
+    font-size: 20px;
+    text-align: center;
+    background-color: #FFFBFA;
+    border: 1px solid #AAEDFC;
+    border-radius: 5px;
+    padding-top: 2px;
+    width: 120px;
+    height: 30px;
+}
+
+main p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border: 1px solid #AAEDFC;
+    border-radius: 15px;
+    width: 250px;
+    height: 75px;
+    margin-top: 20px;
+}
