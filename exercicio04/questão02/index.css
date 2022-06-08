@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 500px;
+    min-height: 100vh;
+    padding-top: 15vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    background-color: gray;
+}
+
+header {
+    margin-bottom: 16px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+main #valoresInseridos {
+    width: 200px;
+    padding-inline: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    
+    margin-bottom: 16px;
+}
+
+main #valoresInseridos input {
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    color: beige;
+    background-color: gray;
+    border: 1px solid aliceblue;
+
+    margin-bottom: 8px;
+}
+
+main #valoresInseridos input::placeholder{
+    color: aliceblue;
+}
+
+main #valoresInseridos button {
+    flex-basis: 100%;
+    color: aliceblue;
+    background-color: transparent;
+    border-color: darkgray;
+    align-self: center;
+    width: 150px;
+    height: 40px;
+}
+
+main #campoResultado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 17px;
+    background-color: aliceblue;
+    width: 166px;
+    height: 36px;
+}
+
+main #campoResultado p {
+    color: gray;
+    padding-left: 2px;
+}
+
+main #campoResultado #resultado {
+    color: darkviolet;
+}
