@@ -1,6 +1,6 @@
 function descoberta() {
 
-    let valor = Number(document.getElementById('valor').value)
+    let valor = Number(document.getElementById('valor').value.replace(',', '.'))
     
     let resultadoa = document.getElementById('rMenor')
     let resultadob = document.getElementById('rMaior') 
