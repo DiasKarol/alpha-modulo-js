@@ -57,6 +57,7 @@ main section {
     flex-wrap: wrap;
     gap: 10px;
     background-color: #71D1EC;
+    margin-bottom: 15px;
 }
 
 main section textarea {
