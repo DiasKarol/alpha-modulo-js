@@ -7,6 +7,8 @@ function communication() {
 
     preview.value += talk.value + '\n' //'\n' é igual ao <br>
     preview.scrollTop = 0;
+
+    talk.value = ''
 }
 
 function clear() {
