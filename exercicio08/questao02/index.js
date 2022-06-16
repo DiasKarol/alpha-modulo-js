@@ -105,7 +105,7 @@ function keep() {
         heigth.classList.add('invalid')
     }
 
-    let birthDay = new Date(year.value + '-' + month.value + '-' + day.value) 
+    let birthDay = new Date(Number(year.value) + '-' + Number(month.value) + '-' + Number(day.value)) 
     let today = new Date()
 
     if (birthDay > today || day.value != birthDay.getDate()) {
@@ -124,7 +124,7 @@ function keep() {
         if (isNaN(weigth.value.replace(',','.'))) throw 'weight';
         if (isNaN(heigth.value) || Number(heigth.value) != parseInt(heigth.value)) throw 'height';
     } catch(error) {
-        console.log(`Field "${error}" is invalid!`);
+        alert(`Field "${error}" is invalid!`);
     }
 
     let user = {
