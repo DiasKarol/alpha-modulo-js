@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Dados cadastrais</title>
+</head>
+<body>
+    <header>
+        <h1>Informe seus dados</h1>
+        <div class="bar"></div>
+    </header>
+
+    <main>
+        <form>
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="birthday">Data de nascimento:</label>
+                <input type="text" id="day" name="birthday" placeholder="Dia" required>
+                <input type="text" id="month" name="birthday" placeholder="Mês" required>
+                <input type="text" id="year" name="birthday" placeholder="Ano" required>
+            </div>
+            <div>
+                <label for="gender">Gênero:</label>
+                <select name="gender" id="gender" required>
+                    <option value="">Selecione</option>
+                    <option value="woman">Mulher</option>
+                    <option value="man">Homen</option>
+                </select>
+                <label for="weigth">Seu peso:</label>
+                <input type="text" id="weigth" name="weigth">
+                <label for="heigth">Sua altura:</label>
+                <input type="text" id="heigth" name="heigth">
+            </div>
+            <button type="button" id="btn">Enviar</button>
+        </form>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+</html>
