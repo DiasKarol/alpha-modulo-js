@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 400px;
+    min-height: 100vh;
+    margin: auto;
+    background-color: gray;
+}
+
+/* ########## header ########## */
+
+header {
+    text-align: center;
+    font-size: 1.5rem;
+    color: aliceblue;
+    background-color: #54DEFD;
+    border-start-start-radius: 5px;
+    border-start-end-radius: 5px;
+    margin-top: 15vh;
+}
+
+/* ########## main ########## */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    height: 250px;
+    padding-block: 55px;
+    border-inline: #54DEFD solid 5px;
+    border-bottom: #54DEFD solid 5px;
+    border-end-start-radius: 5px;
+    border-end-end-radius: 5px;
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 15px;
+}
+
+main section input {
+    font-size: 20px;
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    border: 1px solid #AAEDFC;
+}
+
+main section select {
+    font-size: 16px;
+    text-align: center;
+    background-color: aliceblue;
+    border: 1px solid #AAEDFC;
+    border-radius: 10px;
+    width: 40px;
+    height: 30px;
+}
+
+main button {
+    font-size: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    border: 1px solid #AAEDFC;
+    border-radius: 5px;
+    padding-top: 2px;
+    width: 250px;
+    height: 30px;
+}
+
+main p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-radius: 15px;
+    width: 250px;
+    height: 75px;
+    margin-top: 20px;
+}
