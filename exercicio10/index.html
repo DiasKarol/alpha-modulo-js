@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <title>Lojinha</title>
+</head>
+<body>
+    <header>
+        <h1>Minha lojinha</h1>
+        <p>Olá comerciante, vamos iniciar as vendas...</p>
+    </header>
+
+    <nav>
+        <button id="add">Adicionar produto</button>
+        <button id="list">Listar produtos</button>
+    </nav>
+
+    <main>
+        <article id="add" class="insert">
+            <h1>Adicionando produto</h1>
+            <label for="name">Produto:</label>
+            <input type="text" name="name" id="name">
+
+            <label for="price">Valor:</label>
+            <input type="text" name="price" id="price">
+
+            <textarea name="description" id="description" cols="30" rows="10" placeholder="Descrição:"></textarea>
+
+            <button id="insert">Incluir produto</button>
+        </article>
+
+        <article id="edit" class="insert">
+            <span class="material-icons" id="close">clear</span>
+            <h1>Atualizar produto</h1>
+            <label for="name">Produto:</label>
+            <input type="text" name="name" id="nameEdit">
+
+            <label for="price">Valor:</label>
+            <input type="text" name="price" id="priceEdit">
+
+            <textarea name="description" id="descriptionEdit" cols="30" rows="10" placeholder="Descrição:"></textarea>
+
+            <button id="refresh">Atualizar produto</button>
+        </article>
+
+        <article id="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Valor</th>
+                        <th>Editar </th>
+                        <th>Apagar</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody"></tbody>
+            </table>
+        </article>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+</html>
