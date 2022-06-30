@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: brown;
+    background-color: #3A6332;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* ########### header ########### */
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 96px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    font-size: 4rem;
+    text-shadow: 2px 2px 5px white;
+}
+
+header section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header h2 {
+    font-size: 1.25rem;
+    text-shadow: 2px 2px 5px white;
+}
+
+/* ########### main ########### */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main section span {
+    display: flex;
+    flex-basis: 100%;
+    font-size: 2rem;
+    color: yellow;
+    text-shadow: 2px 2px 5px white;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+main section .elemento {
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Indie Flower', cursive;
+    width: 100px;
+    height: 100px;
+    cursor: help;
+}
+
+main .ordem {
+    display: flex;
+    flex-direction: row;
+}
+
+main section p {
+    flex-basis: 100%;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 5px white;
+    cursor: pointer;
+    margin-top: 15px;
+}

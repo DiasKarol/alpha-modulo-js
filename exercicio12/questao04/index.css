@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: brown;
+    background-color: #3A6332;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* ########### header ########### */
+header {
+    text-align: center;
+    height: 96px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    font-size: 4rem;
+    text-shadow: 2px 2px 5px white;
+}
+
+header h3 {
+    font-size: 1.25rem;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* ########### main ########### */
+
+main {
+    height: calc(100vh - 171px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main #conteinerDeckOfCards {
+    display: grid;
+    place-items: center;
+    margin-bottom: 15px;
+}
+
+main #deck img {
+    width: 200px;
+    cursor: pointer;
+}
+
+main #conteinerResult {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+main #result {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px black;
+}
+
+main #card1 img, main #card2 img, main #card3 img, main #card4 img, main #card5 img {
+    width: 150px;
+}

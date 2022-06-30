@@ -200,7 +200,6 @@ function deleteProduct(id) {
     creatTable(products)
 }
 
-
 /* Realizando a pesquisa */
 function filterSearch(searchUser) {
     return products.filter(function(el) {
@@ -229,9 +228,9 @@ function pullSearch() {
 }
 
 btnInsert.addEventListener('click', addProduct)
-btnList.addEventListener('click', () => creatTable(products))
 btnProduct.addEventListener('click', showName)
 btnValue.addEventListener('click', showPrice)
 btnSearch.addEventListener('click', pullSearch)
+btnList.addEventListener('click', () => creatTable(products))
 btnAdd.addEventListener('click', () => document.body.classList.remove('change'))
 btnClose.addEventListener('click', () => document.getElementById('edit').style.display = 'none')

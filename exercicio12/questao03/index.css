@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 800px;
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #BDD9F2;
+}
+
+button {
+    font-size: 20px;
+    text-align: center;
+    color: #88AABF;
+    background-color: #F0F2F2;
+    border: 2px solid #88AABF;
+    border-radius: 50px;
+    height: 100px;
+    width: 300px;
+}
+
+button:focus {
+    border: 1px solid brown;
+    text-shadow: 10px 10px 20px yellow;
+    outline: none;
+}
