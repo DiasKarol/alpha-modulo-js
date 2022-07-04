@@ -1,0 +1,8 @@
+main section #imgInicial{
+    height: 525px;
+    border-radius: 10px;
+}
+
+main section div {
+    gap: 50px;
+}

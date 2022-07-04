@@ -1,0 +1,17 @@
+main section #imgCupcake{
+    height: 525px;
+    border-radius: 10px;
+}
+
+main section #divCupcake{
+    width: 380px;
+    border-radius: 10px;
+}
+
+main section #divCupcake h2 {
+    margin-bottom: 50px;
+}
+
+main section #divCupcake {
+    gap: 10px;
+}
