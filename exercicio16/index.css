@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    min-height: 100vh;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* ########## header ########## */
+
+header {
+    margin-top: 10px;
+}
+
+/* ########## main ########## */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+main section #includeCep {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+main section #includeCep h1 {
+    font-size: 2rem;
+}
+
+main section #includeCep #cep {
+    width: 100px;
+    text-align: center;
+    background-color: rgb(208, 233, 241);
+    border: 1px solid lightblue;
+    padding-block: 8px;
+}
+
+main section #includeCep #consult {
+    width: 100px;
+    background-color: lightblue;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    padding-block: 8px;
+}
+
+main section #resultCep {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+}
+
+main section #resultCep #result {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section #resultCep #map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    padding-block: 8px;
+    background-color: lightblue;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+}
+
+footer {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
