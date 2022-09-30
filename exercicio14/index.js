@@ -9,7 +9,7 @@ const btnCupcakes = document.getElementById('cupcake');
 const btnDoces = document.getElementById('doces');
 
 const main = document.getElementById('raiz');
-const renderiza = new CustomEvent ( 'onstatechange', {detail: {name: location.pathaname}});
+const renderiza = new CustomEvent ( 'onstatechange', {detail: {name: location.pathname}});
 
 main.appendChild(inicial());
 
